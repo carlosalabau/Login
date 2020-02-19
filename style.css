@@ -37,7 +37,7 @@ main{
     height: auto;
     padding: 30px;
 }
-.form-inicio{
+.form-inicio, .form-registro{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,7 +70,4 @@ main{
 .registro a{
     color: rgba(103,190,103,1);
     text-decoration: none;
-}
-.form-registro{
-    display: none;
 }
