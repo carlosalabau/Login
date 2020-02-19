@@ -7,11 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-            <form class="form">
-                <button type="button" class="btn-inicio">Iniciar sesion</button>
-                <button type="button" class="btn-registro">Registro</button>
+    <div class="nav-wrapper">
+        <nav>
+            <button type="button" class="btn-inicio">Iniciar sesion</button>
+            <button type="button" class="btn-registro">Registro</button>
+        </nav>
+    </div>
+    
+    <div class="wrapper">
+        <main>
+            <form class="form-inicio" action="#" method="POST">
+                <input type="text" placeholder="Nombre de usuario" name="user" class="user"/>
+                <input type="text" placeholder="Contraseña" name="pass" class="pass"/>
+                <button type="button" class="btn-entrar">Iniciar sesion</button>
+                <p>¿No estas registrado?<span class="registro"><a href="#">Registrate</a></span></p>
             </form>
-    </nav>
+        </main>
+    </div>
 </body>
 </html>
