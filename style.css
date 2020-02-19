@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(103,190,103,1);
+    margin: 0;
+    position: relative;
+}
+nav{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 300px;
+    height: 50px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-inicio, .btn-registro{
+    height:40px;
+    width: 140px;
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    border-radius: 2px;
+}
+.btn-inicio{
+    background-color: rgba(42,111,42,1);
+    border: 1px solid rgb(38, 97, 38);
+}
+.btn-registro{
+    background-color: rgba(243,182,32,1);
+    border: 1px solid rgb(219, 165, 29);
+}
