@@ -22,11 +22,11 @@ body{
     border: 1px solid rgba(103,190,103,1);
     color: white;
 }
-.btn-registro{
+.btn-registro, .btn-registrar{
     background-color: rgba(243,182,32,1);
     border: 1px solid rgb(219, 165, 29);
 }
-.btn-entrar{
+.btn-entrar, .btn-registrar{
     width: 80%;
     margin-top:20px;
     height: 40px;
@@ -43,15 +43,13 @@ main{
     justify-content: center;
     align-items: center;
 }
-.form-inicio input{
+.inputs{
+    padding-left: 10px;
     margin-top: 20px;
     height: 40px;
     width: 80%;
     border: none;
     background-color: rgb(241, 241, 241);
-}
-input{
-    padding-left: 10px;
 }
 .wrapper{
     display: flex;
@@ -72,4 +70,7 @@ input{
 .registro a{
     color: rgba(103,190,103,1);
     text-decoration: none;
+}
+.form-registro{
+    display: none;
 }
